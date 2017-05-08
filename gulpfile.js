@@ -11,7 +11,7 @@ var dirs = config.dirs
 var devTasks = [
   'dev:build-styles',
   'dev:build-js',
-  'dev:build-js-lib',
+  'dev:build-lib',
   'dev:build-html',
   'dev:build-images'
 ]
