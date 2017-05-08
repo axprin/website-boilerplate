@@ -1,4 +1,8 @@
 <div class="section">
   <h4><%= data.name %></h4>
   <p><%= data.content %></p>
+  <%= templates.imgTemplate({
+    src: 'images/jackie.jpg',
+    alt: 'JACKIE'
+  }) %>
 </div>

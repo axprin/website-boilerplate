@@ -11,7 +11,7 @@ var dirs = config.dirs
 
 // files
 var jsSrc = './' + dirs.src + '/js/**/*.js'
-var libSrc = './' + dirs.src + '/lib/**/*.js'
+var libSrc = './' + dirs.src + '/lib/**/*.*'
 var jsBuild = './' + dirs.build + '/js'
 
 // gulp tasks
