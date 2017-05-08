@@ -3,6 +3,7 @@
   <p><%= data.content %></p>
   <%= templates.imgTemplate({
     src: 'images/jackie.jpg',
-    alt: 'JACKIE'
+    alt: 'JACKIE',
+    class: 'test test2'
   }) %>
 </div>

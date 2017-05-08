@@ -8,7 +8,7 @@ sections:
 ---
 
 <%= templates.pageHeader({
-  header: "test header 2"
+  header: "test header"
 }) %>
 
 <% data.sections.forEach(function(section) { %>

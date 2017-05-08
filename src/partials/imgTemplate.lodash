@@ -1,1 +1,1 @@
-<img src="<%= data.src %>" alt="<%= data.alt %>">
+<img src="<%= data.src %>" alt="<%= data.alt %>" class="<%= data.class %>">

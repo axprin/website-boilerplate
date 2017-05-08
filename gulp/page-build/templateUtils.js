@@ -2,9 +2,6 @@ var through = require('through2')
 var _ = require('lodash')
 var gulp = require('gulp')
 
-// gulp plugins
-var newer = require('gulp-newer')
-
 // config
 var config = require('../config')
 var dirs = config.dirs

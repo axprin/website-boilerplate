@@ -30,6 +30,6 @@ gulp.task('dev', devTasks, function() {
   }))
 
   gulp.watch('./' + dirs.src + '/js/**/*.js', [ 'dev:build-js' ])
-  gulp.watch('./' + dirs.src + '/**/*.lodash', [ 'dev:generate-html' ])
+  gulp.watch('./' + dirs.src + '/**/*.lodash', [ 'dev:build-html' ])
   gulp.watch('./' + dirs.src + '/styles/*.scss', [ 'dev:build-styles' ])
 })
