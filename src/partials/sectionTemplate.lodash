@@ -1,0 +1,4 @@
+<div class="section">
+  <h4><%= data.name %></h4>
+  <p><%= data.content %></p>
+</div>
