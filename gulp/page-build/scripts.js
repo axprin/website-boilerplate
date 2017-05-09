@@ -4,6 +4,7 @@ var gulp = require('gulp')
 var clean = require('gulp-clean')
 var webpack = require('gulp-webpack')
 var rename = require('gulp-rename')
+var uglify = require('gulp-uglify')
 
 // config
 var config = require('../config')
@@ -18,6 +19,7 @@ gulp.task('dev:build-js', [ 'dev:clean-js' ], function() {
   return gulp.src(jsSrc)
     .pipe(webpack())
     .pipe(rename('main.js'))
+    .pipe(uglify())
     .pipe(gulp.dest(jsBuild))
 })
 
