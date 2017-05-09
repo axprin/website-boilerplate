@@ -16,7 +16,7 @@ var builtCss = './' + dirs.build + '/css/*.css'
 // tasks
 gulp.task('dev:build-styles', [ 'dev:clean-styles' ], function() {
   return gulp.src(scss)
-    .pipe(sass({ outfile: scssOutfile }).on('error', sass.logError))
+    .pipe(sass({ outfile: scssOutfile, outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(gulp.dest('./' + dirs.build + '/css/'))
 })
 
