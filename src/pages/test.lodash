@@ -1,0 +1,19 @@
+---
+pageTitle: This is a test title
+sections:
+  - {name: 'Item 1', content: 'test item 1'}
+  - {name: 'Item 3', content: 'test item 3'}
+---
+
+<%= templates.pageHeader({
+  header: data.pageHeader
+}) %>
+
+<% data.sections.forEach(function(section) { %>
+  <%= templates.sectionTemplate({
+    name: section.name,
+    content: section.content
+  }) %>
+<% }) %>
+
+<%= templates.mainContent() %>
